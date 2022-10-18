@@ -1,0 +1,378 @@
+*{
+    font-family: 'Azeret Mono', monospace;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#9DD9D2;
+}
+.container{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.main{
+
+}
+button{
+    background-color:unset;
+    border: unset;
+}
+/* #1 - Timer */
+.timer{
+    height: 99.4vh;
+    display: flex;
+    justify-content: center;
+    border-bottom: solid black 4px;
+}
+.timer-block{ 
+    padding-top: 18vh; 
+}
+.timer-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 0px;
+}
+.timer-board-hours{
+
+}
+.board{
+    color: #eee;
+    background-color: #222227;
+    border: solid #167e56 3px;
+    border-radius: 0px 0px 25px 25px;
+    -webkit-border-radius: 0px 0px 25px 25px;
+    -moz-border-radius: 0px 0px 25px 25px;
+    -ms-border-radius: 0px 0px 25px 25px;
+    -o-border-radius: 0px 0px 25px 25px;
+    font-size: 120px;
+}
+.board:not(:last-child){
+    margin-right: 20px;
+}
+.time{
+}
+.title{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #167e56;
+    border-radius: 0px 0px 20px 20px;
+    padding: 3px;
+    margin: -1px;
+    font-size: 16px;
+    -webkit-border-radius: 0px 0px 20px 20px;
+    -moz-border-radius: 0px 0px 20px 20px;
+    -ms-border-radius: 0px 0px 20px 20px;
+    -o-border-radius: 0px 0px 20px 20px;
+}
+.timer-board-minutes{
+
+}
+.timer-board-second{
+
+}
+.timer-board-millisecond{
+
+}
+.timer-buttons{
+    display: flex;
+    justify-content: center;
+}
+.timer-buttons .button{
+    padding: 0px 60px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    font-size: 20px;
+}
+.button:hover{
+    background-color:#1db469;
+}
+.button-start{
+
+}
+.button-stop{
+
+}
+.button-reset{
+
+}
+
+/* #2 - Clock */
+.clock{
+
+}
+.clock-block{
+
+}
+.clock-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    margin: 40px 0px;
+}
+.Cboard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 90px;
+}
+.clock-space{
+    font-size: 60px;
+}
+.clock-board-hours{
+
+}
+.clock-time{
+
+}
+.clock-hour{
+
+}
+.title{
+
+}
+.clock-board-minutes{
+
+}
+.clock-minute{
+
+}
+.clock-board-seconds{
+
+}
+.clock-second{
+
+}
+
+/* #3 - Calendar */
+.calendar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #eee;
+    height: 100vh;
+}
+.calendar-block{
+    
+}
+.calendar-board{
+    width: 480px;
+    background-color: #222227;
+    
+}
+.calendar-month{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color:#16b656; */
+    background-color: #222227;
+    border-bottom: solid 6;
+    padding: 50px 20px;
+}
+.fas{
+    
+}
+.fas img{
+    width: 30px;
+}
+.fas img:hover{
+    border:solid #eee 3px;
+    border-radius: 50px;
+    cursor: pointer;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+.fa-angle-left{
+
+}
+.prev{
+
+}
+.calendar-date{
+
+}
+.calendar-week{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 50px 0px 50px;
+}
+.calendar-day{
+    padding: 30px 10px 30px 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.calendar-day div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+}
+.calendar-day div:hover:not(.today){
+    background-color: #262626;
+    border: 3px solid #777;
+    cursor: pointer;
+}
+.prev-day,
+.next-day{
+    opacity: 0.5;
+}
+.today{
+    background-color: #167e56;
+}
+
+/* #4 - Calculator */
+.calculator{
+    height: 100vh;
+}
+.calculator-block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calculator-board{
+    color: #eee;
+    background-color: #222227;
+    width: 500px;
+    height: 720px;
+}
+.clalculator-board-tablo{
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    height: 130px;
+    padding: 0px 20px;
+    margin: 10px 60px;
+    font-size: 28px;
+    background-color: #222227;
+    border-bottom: solid #167e56 3px;
+}
+.calculator-board-buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #222227;
+    padding: 20px;
+    margin: 20px;
+}
+.calculator-board-buttons .button{
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #eee;
+    background-color: #167e56;
+    width: 70px;
+    height: 70px;
+    margin: 14px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.extra{
+    background-color: #167e6e;
+}
+.number{
+
+}
+.operations{
+    background-color: #1db469;
+}
+.zero{
+    width: 170px;
+}
+
+/* #5 - Drums */
+.drumpad{
+
+}
+.darumpad-block{
+    color: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #222227;
+    height: 100vh;
+}
+.drumpad-board h1{
+    padding-bottom: 50px;
+}
+.drumpad-board-buttons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.drum-button{
+    font-size: 90px;
+    color: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#167e56;
+    cursor: pointer;
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+}
+
+/* #6 - Slider */
+.slider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.slider-block{
+    min-width: 800px;
+}
+.slider-board{
+    
+}
+.slider-items{
+    width: 800px;
+    height: 445px;    
+}
+.slide-item{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #eee;
+    font-size: 40px;
+}
+.slide-item img{
+    width: 800px;
+    height: 445px;
+}
+
+.slider-buttons{
+    display: flex;
+    justify-content: space-between;
+}
+.button{
+
+}
+.prev{
+
+}
+.next{
+
+}
