@@ -1,2 +1,2 @@
-# https://leofom.github.io/landing_1/
+# https://leofom.github.io/js-projects/
 # some js projects
